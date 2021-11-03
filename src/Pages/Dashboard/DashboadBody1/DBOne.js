@@ -8,14 +8,14 @@ import userImg from "./../../../Images/Users/user.png";
 const DBOne = () => {
   const [users, setUsers] = useState([]);
   useEffect(() => {
-    fetch("https://cryptic-ridge-44622.herokuapp.com/users")
+    fetch("https://vast-earth-49506.herokuapp.com/users")
       .then((res) => res.json())
       .then((data) => setUsers(data));
   }, []);
   const handleDeleteUser = (id) => {
     const proceed = window.confirm("Are you sure, you want to delete?", id);
     if (proceed) {
-      const url = `https://cryptic-ridge-44622.herokuapp.com/users/${id}`;
+      const url = `https://vast-earth-49506.herokuapp.com/users/${id}`;
       fetch(url, {
         method: "DELETE",
       })
@@ -33,7 +33,7 @@ const DBOne = () => {
   const onSubmit = (data) => {
     console.log(data);
     axios
-      .post("https://cryptic-ridge-44622.herokuapp.com/users", data)
+      .post("/users", data)
       .then((res) => {
         if (res.data.insertedId) {
           alert("added Successfully");
@@ -68,7 +68,7 @@ const DBOne = () => {
                   <div className="mx-4 mt-3">
                     <div
                       className="row overflow-scroll"
-                      // style={{ width: "100%" }}
+                    // style={{ width: "100%" }}
                     >
                       {users.map((user) => (
                         <div className="d-flex justify-content-around align-items-center p-3 px-4 my-4 shadow borderRadius-4">

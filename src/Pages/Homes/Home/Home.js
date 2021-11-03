@@ -7,10 +7,12 @@ import Review from "../Review/Review";
 const Home = () => {
   return (
     <div>
+
       <Banner></Banner>
+      <Gallery></Gallery>
       <AllServices></AllServices>
       <Review></Review>
-      <Gallery></Gallery>
+
     </div>
   );
 };

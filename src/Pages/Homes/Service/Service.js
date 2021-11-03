@@ -17,10 +17,10 @@ const Service = (props) => {
   } = props.service;
   const description = descriptionFast.slice(0, 150);
   return (
-    <div class="col-lg-4 col-md-6 col-12">
-      <div class="card border-0 shadow service-cart h-100 m-3">
-        <img src={imgUrl} class="card-img-top img-w" alt="..." />
-        <div class="card-body px-5">
+    <div class="col-lg-4 col-md-6 col-12 my-5">
+      <div class="card border-4 border-info  p-1 service-cart h-100 m-3">
+        <img src={imgUrl} class="card-img-top  border border-2   img-w" alt="..." />
+        <div class="card-body px-5" >
           <h5 className="d-flex">
             <Rating
               className="me-3"

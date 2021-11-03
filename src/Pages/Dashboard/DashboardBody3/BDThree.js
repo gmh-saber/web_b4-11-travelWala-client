@@ -7,20 +7,20 @@ import { Link } from "react-router-dom";
 const Dashboard = () => {
   const [Data, setData] = useState([]);
   useEffect(() => {
-    fetch("http://cryptic-ridge-44622.herokuapp.com/usersServices/")
+    fetch("https://vast-earth-49506.herokuapp.com/usersServices/")
       .then((res) => res.json())
       .then((data) => setData(data))
       .catch();
   }, []);
   useEffect(() => {
-    fetch("https://cryptic-ridge-44622.herokuapp.com/usersServices")
+    fetch("https://vast-earth-49506.herokuapp.com/usersServices")
       .then((res) => res.json())
       .then((data) => setData(data));
   }, []);
   const handleDeleteUserService = (id) => {
     const proceed = window.confirm("Are you sure, you want to delete?", id);
     if (proceed) {
-      const url = `https://cryptic-ridge-44622.herokuapp.com/usersServices/${id}`;
+      const url = `https://vast-earth-49506.herokuapp.com/usersServices/${id}`;
       fetch(url, {
         method: "DELETE",
       })

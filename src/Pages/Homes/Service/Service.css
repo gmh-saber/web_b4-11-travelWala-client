@@ -2,12 +2,18 @@
   color: #ffa500;
 }
 .service-cart {
+  margin-bottom: 20px!important;
   overflow: hidden;
   border-radius: 20px !important;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
+}
+.service-cart:hover{
+  transform: scale(1.08);
+  margin-top: 15px;
+  box-shadow:0px 10px 15px gray!important;
 }
 .cart-dl {
   display: flex;
@@ -27,5 +33,6 @@
   color: #808080;
 }
 .img-w {
-  height: 400px;
+  height: 320px;
+  border-radius: 20px;
 }

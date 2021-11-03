@@ -8,13 +8,13 @@ const Header = () => {
   const { logOut, user } = useAuth();
   const { displayName, photoURL } = user;
   return (
-    <div className="shadow">
+    <div className="shadow bg-dark text-primary">
       <div className="container">
-        <nav className="navbar navbar-expand-lg navbar-light">
+        <nav className="navbar navbar-expand-lg  navbar-light">
           <div className="container-fluid">
-            <a className="navbar-brand fw-bold fs-2" href="/">
-              <span className="color-pink">T</span>ravel{" "}
-              <span className="color-pink">...</span>
+            <a className="navbar-brand text-white fw-bold fs-2" href="/">
+              <span className="text-info">Travel </span>Wala{" "}
+
             </a>
             <button
               className="navbar-toggler"
@@ -28,13 +28,13 @@ const Header = () => {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div
-              className="collapse navbar-collapse"
+              className="collapse navbar-collapse  "
               id="navbarSupportedContent"
             >
-              <ul className="navbar-nav m-auto mb-2 mb-lg-0 navigation">
+              <ul className="navbar-nav  m-auto mt-0 mb-lg-0 navigation">
                 <li className="nav-item">
                   <NavLink
-                    className="nav-link fw-bold"
+                    className="nav-link  text-primary fw-bold"
                     to="/home"
                     activeStyle={{
                       color: "#ff7c5b",
@@ -45,7 +45,7 @@ const Header = () => {
                 </li>
                 <li className="nav-item px-2">
                   <NavLink
-                    className="nav-link fw-bold"
+                    className="nav-link  text-primary fw-bold"
                     to="/about"
                     activeStyle={{
                       color: "#ff7c5b",
@@ -56,7 +56,7 @@ const Header = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    className="nav-link fw-bold"
+                    className="nav-link  text-primary fw-bold"
                     to="/blog"
                     activeStyle={{
                       color: "#ff7c5b",
@@ -67,7 +67,7 @@ const Header = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    className="nav-link fw-bold"
+                    className="nav-link  text-primary fw-bold"
                     to="/contact"
                     activeStyle={{
                       color: "#ff7c5b",
@@ -78,7 +78,7 @@ const Header = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    className="nav-link fw-bold"
+                    className="nav-link  text-primary fw-bold"
                     to="/mybooking"
                     activeStyle={{
                       color: "#ff7c5b",
@@ -89,7 +89,7 @@ const Header = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    className="nav-link fw-bold"
+                    className="nav-link  text-primary fw-bold"
                     to="/dashboard"
                     activeStyle={{
                       color: "#ff7c5b",
@@ -99,19 +99,22 @@ const Header = () => {
                   </NavLink>
                 </li>
               </ul>
-              <div className="d-flex">
-                <button className="btn btn-travel fw-bold me-3">
-                  Book A Tour{" "}
-                </button>
+              <div className="d-flex align-items-center ">
+                <Link to="/">
+                  <button className="btn  btn-outline-primary fs-5 fw-bold me-3">
+                    Book A Tour{" "}
+                  </button>
+                </Link>
                 {user.email ? (
                   <Link to="/login">
-                    <button onClick={logOut} className="btn btn-travel fw-bold">
+                    <button onClick={logOut} className="btn btn-outline-primary fs-3 fw-bold">
                       Log Out
                     </button>
                   </Link>
                 ) : (
                   <Link to="/login">
-                    <button className="btn btn-travel  fw-bold">Log In</button>
+                    <button type="button" class="btn btn-outline-primary fs-5 fw-bold">Log In</button>
+
                   </Link>
                 )}
                 <div className="d-flex justify-content-center align-items-center">
@@ -125,7 +128,7 @@ const Header = () => {
                     </span>
                   )}
                   {displayName ? (
-                    <span className="text-Blue ts-5 color-pink fw-bold ms-2 ">
+                    <span className="text-Blue ts-5 text-primary fw-bold ms-2 ">
                       {displayName}
                     </span>
                   ) : (

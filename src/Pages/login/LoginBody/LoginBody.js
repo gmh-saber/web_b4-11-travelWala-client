@@ -17,7 +17,7 @@ const LoginBody = () => {
 
   const redirect_uri = location.state?.from || "/home";
   useEffect(() => {
-    fetch("https://cryptic-ridge-44622.herokuapp.com/users")
+    fetch("https://vast-earth-49506.herokuapp.com/users")
       .then((res) => res.json())
       .then((data) => setData(data));
   }, []);
@@ -40,7 +40,7 @@ const LoginBody = () => {
           }
         }
         if (flag === 0) {
-          fetch("https://cryptic-ridge-44622.herokuapp.com/users", {
+          fetch("https://vast-earth-49506.herokuapp.com/users", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(newUser),
@@ -48,13 +48,14 @@ const LoginBody = () => {
             .then((res) => res.json())
             .then((data) => {
               if (data.insertedId) {
+
                 alert("Successfully added the user.");
                 // e.target.reset();
               }
             });
         }
       })
-      .catch((error) => {});
+      .catch((error) => { });
   };
 
   const handleEmail = (e) => {
@@ -86,7 +87,7 @@ const LoginBody = () => {
           }
         }
         if (flag === 0) {
-          fetch("https://cryptic-ridge-44622.herokuapp.com/users", {
+          fetch("https://vast-earth-49506.herokuapp.com/users", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(newUser),
@@ -109,67 +110,28 @@ const LoginBody = () => {
   return (
     <div className="container">
       <div className="row">
-        <div className="w-50 md-w-75 mx-auto shadow my-5 rounded">
-          <h3 className="text-center my-3 ts-2">Enter An Account</h3>
-          <div className="w-75 md-w-85 mx-auto my-5">
-            <form onSubmit={handleRegistration} className="">
-              {/* <div className="mb-3"> */}
-              <div className="form-floating mb-3">
-                <input
-                  onBlur={handleEmail}
-                  type="email"
-                  className="form-control ts-5"
-                  id="floatingInput"
-                  placeholder="name@example.com"
-                />
-                <label for="floatingInput" className="ts-5">
-                  Email address
-                </label>
-              </div>
-              <div className="form-floating mb-3">
-                <input
-                  onBlur={handlePassword}
-                  type="password"
-                  className="form-control ts-5"
-                  id="floatingPassword"
-                  placeholder="Password"
-                />
-                <label for="floatingPassword" className="ts-5">
-                  Password
-                </label>
-              </div>
-              <div className="row mb-3 text-danger">{error}</div>
-              <div className="text-center my-3">
-                <button type="submit" className="btn btn-travel">
-                  Submit
-                </button>
-              </div>
-              <p className="ts-5">
-                Forget Password? <Link>Click Here</Link>
-              </p>
-              <p className="ts-5">
-                Don't have an account? <Link to="/signup">Sing up</Link>
-              </p>
-            </form>
-            <div className="row d-flex justify-content-center align-items-center">
-              <div className="col-lg-6 col-md-12 col-sm-12 ">
-                <button
-                  onClick={handleLogin}
-                  className="btn btn-travel btn-travel-bg me-3"
-                >
-                  <i className="fab fa-google"></i> Google SingIn
-                </button>
-              </div>
-              <div className="col-lg-6 col-md-6 col-sm-12">
-                <button
-                  className="btn btn-travel btn-travel-bg"
-                  // onClick={handleGithubLogin}
-                >
-                  <i className="fab fa-github"></i> Github SingIn
-                </button>
-              </div>
-            </div>
+        <div className="w-50 md-w-75 col-12 col-md-12 col-lg-12 mx-auto shadow-lg bg-secondary my-5 p-5 rounded">
+          <h3 className="text-center text-white my-3 ts-2">Sign In with
+            <span className="g"> G</span>
+            <span className="o1">O</span>
+            <span className="o2">O</span>
+            <span className="g2">G</span>
+            <span className="l">L</span>
+            <span className="e">E</span>
+          </h3>
+
+          <div className=" d-flex justify-content-center align-items-center">
+
+            <button
+              onClick={handleLogin}
+              className="btn text-white  btn-info"
+            >
+              <i className="fab fa-google"></i> Google SingIn
+            </button>
+
+
           </div>
+
         </div>
       </div>
     </div>

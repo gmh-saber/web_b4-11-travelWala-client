@@ -36,16 +36,15 @@ const Review = () => {
           <span>i</span>
           <span>e</span>
           <span>w</span>
-          <span>y</span>
         </h3>
       </div>
       <div className="review_slider">
         <div className="container">
           <div className="row">
             <Carousel responsive={responsive}>
-              <div className="review">
-                <div class="box">
-                  <img src={sliderImg1} alt="" />
+              <div className="review ">
+                <div class="box border border-4 border-info rounded-pill">
+                  <img className="border border-4 border-info rounded-pill" src={sliderImg1} alt="" />
                   <h3 className="color-pink">john deo</h3>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
@@ -54,17 +53,17 @@ const Review = () => {
                     sit ducimus a temporibus, amet culpa possimus neque.
                   </p>
                   <div class="stars">
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="far fa-star color-pink"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="far fa-star text-warning"></i>
                   </div>
                 </div>
               </div>
               <div className="review">
-                <div class="box">
-                  <img src={sliderImg2} alt="" />
+                <div class="box border border-4 border-info rounded-pill">
+                  <img className="border border-4 border-info rounded-pill" src={sliderImg2} alt="" />
                   <h3 className="color-pink">john deo</h3>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
@@ -73,17 +72,17 @@ const Review = () => {
                     sit ducimus a temporibus, amet culpa possimus neque.
                   </p>
                   <div class="stars">
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="far fa-star color-pink"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="far fa-star text-warning"></i>
                   </div>
                 </div>
               </div>
               <div className="review">
-                <div class="box">
-                  <img src={sliderImg3} alt="" />
+                <div class="box border border-4 border-info rounded-pill">
+                  <img className="border border-4 border-info rounded-pill" src={sliderImg3} alt="" />
                   <h3 className="color-pink">john deo</h3>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
@@ -92,18 +91,18 @@ const Review = () => {
                     sit ducimus a temporibus, amet culpa possimus neque.
                   </p>
                   <div class="stars">
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="far fa-star color-pink"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="far fa-star text-warning"></i>
                   </div>
                 </div>
               </div>
               <div className="review">
-                <div class="box">
-                  <img src={sliderImg4} alt="" />
-                  <h3 className="color-pink">john deo</h3>
+                <div class="box border border-4 border-info rounded-pill">
+                  <img className="border border-4 border-info rounded-pill" src={sliderImg4} alt="" />
+                  <h3 className="color-pink">Hulk</h3>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
                     asperiores architecto sint delectus reiciendis voluptatibus
@@ -111,18 +110,18 @@ const Review = () => {
                     sit ducimus a temporibus, amet culpa possimus neque.
                   </p>
                   <div class="stars">
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="far fa-star color-pink"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="far fa-star text-warning"></i>
                   </div>
                 </div>
               </div>
               <div className="review">
-                <div class="box">
-                  <img src={sliderImg2} alt="" />
-                  <h3 className="color-pink">john deo</h3>
+                <div class="box border border-4 border-info rounded-pill">
+                  <img className="border border-4 border-info rounded-pill" src={sliderImg2} alt="" />
+                  <h3 className="color-pink">Captain America</h3>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
                     asperiores architecto sint delectus reiciendis voluptatibus
@@ -130,18 +129,18 @@ const Review = () => {
                     sit ducimus a temporibus, amet culpa possimus neque.
                   </p>
                   <div class="stars">
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="far fa-star color-pink"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="far fa-star text-warning"></i>
                   </div>
                 </div>
               </div>
               <div className="review">
-                <div class="box">
-                  <img src={sliderImg4} alt="" />
-                  <h3 className="color-pink">john deo</h3>
+                <div class="box border border-4 border-info rounded-pill">
+                  <img className="border border-4 border-info rounded-pill" src={sliderImg4} alt="" />
+                  <h3 className="color-pink">Tony Stark</h3>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
                     asperiores architecto sint delectus reiciendis voluptatibus
@@ -149,33 +148,15 @@ const Review = () => {
                     sit ducimus a temporibus, amet culpa possimus neque.
                   </p>
                   <div class="stars">
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="far fa-star color-pink"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="far fa-star text-warning"></i>
                   </div>
                 </div>
               </div>
-              <div className="review">
-                <div class="box">
-                  <img src={sliderImg4} alt="" />
-                  <h3 className="color-pink">john deo</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                    asperiores architecto sint delectus reiciendis voluptatibus
-                    omnis consequatur obcaecati! Vero blanditiis modi aliquid
-                    sit ducimus a temporibus, amet culpa possimus neque.
-                  </p>
-                  <div class="stars">
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="fas fa-star color-pink"></i>
-                    <i class="far fa-star color-pink"></i>
-                  </div>
-                </div>
-              </div>
+
             </Carousel>
           </div>
         </div>

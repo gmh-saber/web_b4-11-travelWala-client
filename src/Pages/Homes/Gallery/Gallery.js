@@ -15,7 +15,7 @@ const Gallery = () => {
     <div className="gallery my-5">
       <div className="">
         <div className="title">
-          <h4 className="sub-heading">Ours Gallery</h4>
+          <h4 className="sub-heading">Travel Gallery</h4>
           <h3 class="heading">
             <span>g</span>
             <span>a</span>
@@ -26,16 +26,30 @@ const Gallery = () => {
             <span>y</span>
           </h3>
         </div>
-        <div class="box-container">
+        <div class="box-container ">
           <div class="box">
-            <img src={g1} alt="" />
-            <div class="content">
-              <h3 className="color-pink text-uppercase">amazing places</h3>
+            <img src={g9} alt="" />
+            <div class="content ">
+              <h3 className=" text-white text-uppercase">amazing places</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Sapiente, soluta!
               </p>
-              <a href="/" class="btn btn-travel">
+              <a href="/" class="btn btn-outline-info fs-4 fw-bold ">
+                {" "}
+                see more
+              </a>
+            </div>
+          </div>
+          <div class="box">
+            <img src={g1} alt="" />
+            <div class="content ">
+              <h3 className=" text-white text-uppercase">amazing places</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Sapiente, soluta!
+              </p>
+              <a href="/" class="btn btn-outline-info fs-4 fw-bold ">
                 {" "}
                 see more
               </a>
@@ -44,12 +58,12 @@ const Gallery = () => {
           <div class="box">
             <img src={g2} alt="" />
             <div class="content">
-              <h3 className="color-pink text-uppercase">amazing places</h3>
+              <h3 className="text-white  text-uppercase">amazing places</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Sapiente, soluta!
               </p>
-              <a href="/" class="btn btn-travel">
+              <a href="/" class="btn btn-outline-info fs-4 fw-bold ">
                 {" "}
                 see more
               </a>
@@ -58,12 +72,12 @@ const Gallery = () => {
           <div class="box">
             <img src={g3} alt="" />
             <div class="content">
-              <h3 className="color-pink text-uppercase">amazing places</h3>
+              <h3 className="text-white  text-uppercase">amazing places</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Sapiente, soluta!
               </p>
-              <a href="/" class="btn btn-travel">
+              <a href="/" class="btn btn-outline-info fs-4 fw-bold ">
                 {" "}
                 see more
               </a>
@@ -72,12 +86,12 @@ const Gallery = () => {
           <div class="box">
             <img src={g4} alt="" />
             <div class="content">
-              <h3 className="color-pink text-uppercase">amazing places</h3>
+              <h3 className="text-white  text-uppercase">amazing places</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Sapiente, soluta!
               </p>
-              <a href="/" class="btn btn-travel">
+              <a href="/" class="btn btn-outline-info fs-4 fw-bold ">
                 {" "}
                 see more
               </a>
@@ -86,12 +100,12 @@ const Gallery = () => {
           <div class="box">
             <img src={g5} alt="" />
             <div class="content">
-              <h3 className="color-pink text-uppercase">amazing places</h3>
+              <h3 className="text-white  text-uppercase">amazing places</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Sapiente, soluta!
               </p>
-              <a href="/" class="btn btn-travel">
+              <a href="/" class="btn btn-outline-info fs-4 fw-bold ">
                 {" "}
                 see more
               </a>
@@ -100,12 +114,12 @@ const Gallery = () => {
           <div class="box">
             <img src={g6} alt="" />
             <div class="content">
-              <h3 className="color-pink text-uppercase">amazing places</h3>
+              <h3 className="text-white  text-uppercase">amazing places</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Sapiente, soluta!
               </p>
-              <a href="/" class="btn btn-travel">
+              <a href="/" class="btn btn-outline-info fs-4 fw-bold ">
                 {" "}
                 see more
               </a>
@@ -114,12 +128,12 @@ const Gallery = () => {
           <div class="box">
             <img src={g7} alt="" />
             <div class="content">
-              <h3 className="color-pink text-uppercase">amazing places</h3>
+              <h3 className="text-white  text-uppercase">amazing places</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Sapiente, soluta!
               </p>
-              <a href="/" class="btn btn-travel">
+              <a href="/" class="btn btn-outline-info fs-4 fw-bold ">
                 {" "}
                 see more
               </a>
@@ -128,31 +142,18 @@ const Gallery = () => {
           <div class="box">
             <img src={g8} alt="" />
             <div class="content">
-              <h3 className="color-pink text-uppercase">amazing places</h3>
+              <h3 className="text-white  text-uppercase">amazing places</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Sapiente, soluta!
               </p>
-              <a href="/" class="btn btn-travel">
+              <a href="/" class="btn btn-outline-info fs-4 fw-bold ">
                 {" "}
                 see more
               </a>
             </div>
           </div>
-          <div class="box">
-            <img src={g9} alt="" />
-            <div class="content">
-              <h3 className="color-pink text-uppercase">amazing places</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Sapiente, soluta!
-              </p>
-              <a href="/" class="btn btn-travel">
-                {" "}
-                see more
-              </a>
-            </div>
-          </div>
+
         </div>
       </div>
     </div>

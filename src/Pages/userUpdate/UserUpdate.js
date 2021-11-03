@@ -4,7 +4,7 @@ const UserUpdate = () => {
   const [user, setUser] = useState({});
   const { id } = useParams();
   useEffect(() => {
-    const url = `https://cryptic-ridge-44622.herokuapp.com/users/${id}`;
+    const url = `https://vast-earth-49506.herokuapp.com/users/${id}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setUser(data));
@@ -38,7 +38,7 @@ const UserUpdate = () => {
     setUser(updatedUser);
   };
   const handleUpdateUser = (e) => {
-    const url = `https://cryptic-ridge-44622.herokuapp.com/users/${id}`;
+    const url = `https://vast-earth-49506.herokuapp.com/users/${id}`;
     fetch(url, {
       method: "PUT",
       headers: {

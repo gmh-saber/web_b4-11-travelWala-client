@@ -11,12 +11,12 @@ const ServiceDetails = () => {
   const [data, setData] = useState([]);
   const [users, setUsers] = useState([]);
   useEffect(() => {
-    fetch("https://cryptic-ridge-44622.herokuapp.com/services")
+    fetch("https://vast-earth-49506.herokuapp.com/services")
       .then((res) => res.json())
       .then((data) => setData(data));
   }, []);
   useEffect(() => {
-    fetch("https://cryptic-ridge-44622.herokuapp.com/users")
+    fetch("https://vast-earth-49506.herokuapp.com/users")
       .then((res) => res.json())
       .then((data) => setUsers(data));
   }, []);
@@ -30,7 +30,7 @@ const ServiceDetails = () => {
     data.userServices = ExactItem[0];
     data.ExactUser = ExactUsers[0];
     axios
-      .post("https://cryptic-ridge-44622.herokuapp.com/usersServices", data)
+      .post("https://vast-earth-49506.herokuapp.com/usersServices", data)
       .then((res) => {
         if (res.data.insertedId) {
           alert("Order Accepted");

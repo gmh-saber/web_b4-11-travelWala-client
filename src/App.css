@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap");
 :root {
-  --pink-color: #ff7c5b;
+  /* --pink-color: #245BEC;
   --gray-color: gray;
-  --white-color: #fff;
+  --white-color: #fff; */
 }
 *::selection {
   background: var(--pink-color);
@@ -162,7 +162,7 @@ html {
 }
 .sub-heading {
   font-size: 2rem;
-  color: #ff7c5b;
+  color: rgb(1 153 255 / 98%);
   text-align: center;
   font-family: "Dancing Script", cursive;
 }
@@ -175,7 +175,7 @@ html {
   text-transform: uppercase;
   color: #ff7c5b !important;
   font-size: 2.6rem;
-  background: rgba(255, 124, 91, 0.308);
+  background: rgba(100, 190, 250, 0.308);
   color: var(--orange);
   border-radius: 8px;
   padding: 0.3rem 0.8rem 0.5rem 0.8rem;

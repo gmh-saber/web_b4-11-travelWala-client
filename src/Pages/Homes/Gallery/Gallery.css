@@ -26,8 +26,8 @@
 }
 .gallery .box-container .box .content {
   position: absolute;
-  top: -150%;
-  left: 0;
+  right: -150%;
+  top: 0;
   height: 100%;
   width: 100%;
   text-align: center;
@@ -36,10 +36,12 @@
   padding-top: 5rem;
 }
 .gallery .box-container .box:hover .content {
-  top: 0;
+  right: 0;
+  transition: 1s;
 }
 .gallery .box-container .box:hover img {
   transform: scale(1.4);
+  transition: 1s;
   -webkit-transform: scale(1.4);
   -moz-transform: scale(1.4);
   -ms-transform: scale(1.4);
