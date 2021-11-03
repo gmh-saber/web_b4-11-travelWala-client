@@ -12,10 +12,11 @@ const Header = () => {
       <div className="container">
         <nav className="navbar navbar-expand-lg  navbar-light">
           <div className="container-fluid">
-            <a className="navbar-brand text-white fw-bold fs-2" href="/">
-              <span className="text-info">Travel </span>Wala{" "}
 
-            </a>
+            <Link to="/" className="navbar-brand text-white fw-bold fs-2">
+              <span className="text-info">Travel </span>Wala{" "}
+            </Link>
+
             <button
               className="navbar-toggler"
               type="button"
@@ -100,8 +101,8 @@ const Header = () => {
                 </li>
               </ul>
               <div className="d-flex align-items-center ">
-                <Link to="/">
-                  <button className="btn  btn-outline-primary fs-5 fw-bold me-3">
+                <Link to="bookCard">
+                  <button className="btn  btn-outline-primary fs-3 fw-bold me-3">
                     Book A Tour{" "}
                   </button>
                 </Link>
@@ -132,7 +133,7 @@ const Header = () => {
                       {displayName}
                     </span>
                   ) : (
-                    <span></span>
+                    <span className="text-Blue ts-5 text-primary fw-bold ms-2 ">Guest</span>
                   )}
                 </div>
               </div>

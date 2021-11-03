@@ -31,14 +31,14 @@ const MyBooking = () => {
   return (
     <div>
       <BookingBanner></BookingBanner>
-      <div>
+      <div className="my-5">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
               <div className="row row-cols-1 row-cols-md-3 g-4">
                 {booking.map((booked) => (
                   <div class="col my-5 ">
-                    <div class="card h-100 border-0 shadow service-cart ">
+                    <div class="card h-100 border-4 border-danger p-3 shadow-lg service-cart ">
                       <img
                         src={booked.userServices.imgUrl}
                         class="card-img-top img-w"

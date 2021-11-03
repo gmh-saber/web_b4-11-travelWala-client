@@ -1,4 +1,14 @@
 .bookingImg {
   width: 200px;
   height: 200px;
+  
+}
+.service-cart{
+  margin: 15px!important;
+}
+.service-cart:hover{
+  transform: scale(1.08);
+  transition: 1s;
+  box-shadow:0px 10px 15px gray!important;
+
 }

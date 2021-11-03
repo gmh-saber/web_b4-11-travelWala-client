@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap");
 :root {
-  /* --pink-color: #245BEC;
+  --pink-color: #05ff65 ;
   --gray-color: gray;
-  --white-color: #fff; */
+  --white-color: #fff;
 }
 *::selection {
   background: var(--pink-color);

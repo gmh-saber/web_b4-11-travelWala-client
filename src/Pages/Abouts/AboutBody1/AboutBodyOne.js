@@ -5,6 +5,15 @@ const AboutBodyOne = () => {
     <div>
       <div className="container">
         <div className="row">
+          <div className="col-lg-6 col-md-6 col-12">
+            <div>
+              <img
+                src={aboutImg}
+                className="img-fluid my-5 p-4 shadow rounded "
+                alt=""
+              />
+            </div>
+          </div>
           <div className="col-lg-6 col-md-6 col-12 my-5">
             <div className="title">
               <h4 className="sub-heading text-start">ABOUT TRAVIO</h4>
@@ -20,15 +29,7 @@ const AboutBodyOne = () => {
               <button className="btn btn-travel">Find Tour</button>
             </div>
           </div>
-          <div className="col-lg-6 col-md-6 col-12">
-            <div>
-              <img
-                src={aboutImg}
-                className="img-fluid my-5 p-4 shadow rounded "
-                alt=""
-              />
-            </div>
-          </div>
+
         </div>
       </div>
     </div>

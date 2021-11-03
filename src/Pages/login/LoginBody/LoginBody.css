@@ -1,0 +1,8 @@
+.g-button:hover{
+
+    transform: scale(1.05) rotate(360deg);
+    transform-origin: center;
+    transition: 1s;
+    margin: 0;
+    
+}

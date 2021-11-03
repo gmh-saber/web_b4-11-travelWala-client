@@ -10,7 +10,7 @@ const AboutBodyThree = () => {
             <h1 className="ts-1 mb-4 mt-5 text-light">Explore Your Travel</h1>
             <h2 className="ts-4 mb-5 text-light">Your New Traveling Idea</h2>
             <div className="mb-5 pb-5 mt-5 pt-5">
-              <a href="/" className="animated_btn">
+              <a href="https://youtu.be/b3B8NQCde4w" target="_blank" className="animated_btn">
                 <i class="fa fa-play ts-3" aria-hidden="true"></i>
               </a>
             </div>

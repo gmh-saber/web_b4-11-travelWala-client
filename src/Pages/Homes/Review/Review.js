@@ -45,12 +45,9 @@ const Review = () => {
               <div className="review ">
                 <div class="box border border-4 border-info rounded-pill">
                   <img className="border border-4 border-info rounded-pill" src={sliderImg1} alt="" />
-                  <h3 className="color-pink">john deo</h3>
+                  <h3 className="color-pink">Selena</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                    asperiores architecto sint delectus reiciendis voluptatibus
-                    omnis consequatur obcaecati! Vero blanditiis modi aliquid
-                    sit ducimus a temporibus, amet culpa possimus neque.
+                    Most people’s experience of the Norwegian fjords is from the deck of a cruise ship, but it’s more rewarding to set out on foot and explore.I leave my base in Stavanger and head north through tunnels and even a ferry before arriving at Åkrafjorden.
                   </p>
                   <div class="stars">
                     <i class="fas fa-star text-warning"></i>
@@ -64,12 +61,9 @@ const Review = () => {
               <div className="review">
                 <div class="box border border-4 border-info rounded-pill">
                   <img className="border border-4 border-info rounded-pill" src={sliderImg2} alt="" />
-                  <h3 className="color-pink">john deo</h3>
+                  <h3 className="color-pink">Trevar Loard </h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                    asperiores architecto sint delectus reiciendis voluptatibus
-                    omnis consequatur obcaecati! Vero blanditiis modi aliquid
-                    sit ducimus a temporibus, amet culpa possimus neque.
+                    From this point, it’s an easy walk across white granite slabs with stunning views of the fjord below. Soon the rock itself comes into sight as you negotiate a narrow path along the cliffs. It juts out into the air, high above the water, and there are no
                   </p>
                   <div class="stars">
                     <i class="fas fa-star text-warning"></i>
@@ -85,10 +79,7 @@ const Review = () => {
                   <img className="border border-4 border-info rounded-pill" src={sliderImg3} alt="" />
                   <h3 className="color-pink">john deo</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                    asperiores architecto sint delectus reiciendis voluptatibus
-                    omnis consequatur obcaecati! Vero blanditiis modi aliquid
-                    sit ducimus a temporibus, amet culpa possimus neque.
+                    I leave my base in Stavanger and head north through tunnels and even a ferry before arriving at Åkrafjorden. Cruise passengers take day trips here to see the Langfoss Waterfall; it’s a 612m drop making it one of Norway’sfinest.
                   </p>
                   <div class="stars">
                     <i class="fas fa-star text-warning"></i>
@@ -104,10 +95,23 @@ const Review = () => {
                   <img className="border border-4 border-info rounded-pill" src={sliderImg4} alt="" />
                   <h3 className="color-pink">Hulk</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                    asperiores architecto sint delectus reiciendis voluptatibus
-                    omnis consequatur obcaecati! Vero blanditiis modi aliquid
-                    sit ducimus a temporibus, amet culpa possimus neque.
+                    I leave my base in Stavanger and head north through tunnels and even a ferry before arriving at Åkrafjorden. Cruise passengers take day trips here to see the Langfoss Waterfall; it’s a 612m drop making it one of Norway’sfinest.
+                  </p>
+                  <div class="stars">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="far fa-star text-warning"></i>
+                  </div>
+                </div>
+              </div>
+              <div className="review ">
+                <div class="box border border-4 border-info rounded-pill">
+                  <img className="border border-4 border-info rounded-pill" src={sliderImg1} alt="" />
+                  <h3 className="color-pink">Selena</h3>
+                  <p>
+                    Most people’s experience of the Norwegian fjords is from the deck of a cruise ship, but it’s more rewarding to set out on foot and explore.I leave my base in Stavanger and head north through tunnels and even a ferry before arriving at Åkrafjorden.
                   </p>
                   <div class="stars">
                     <i class="fas fa-star text-warning"></i>
@@ -123,10 +127,7 @@ const Review = () => {
                   <img className="border border-4 border-info rounded-pill" src={sliderImg2} alt="" />
                   <h3 className="color-pink">Captain America</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                    asperiores architecto sint delectus reiciendis voluptatibus
-                    omnis consequatur obcaecati! Vero blanditiis modi aliquid
-                    sit ducimus a temporibus, amet culpa possimus neque.
+                    I leave my base in Stavanger and head north through tunnels and even a ferry before arriving at Åkrafjorden. Cruise passengers take day trips here to see the Langfoss Waterfall; it’s a 612m drop making it one of Norway’sfinest.
                   </p>
                   <div class="stars">
                     <i class="fas fa-star text-warning"></i>
@@ -142,10 +143,7 @@ const Review = () => {
                   <img className="border border-4 border-info rounded-pill" src={sliderImg4} alt="" />
                   <h3 className="color-pink">Tony Stark</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                    asperiores architecto sint delectus reiciendis voluptatibus
-                    omnis consequatur obcaecati! Vero blanditiis modi aliquid
-                    sit ducimus a temporibus, amet culpa possimus neque.
+                    I leave my base in Stavanger and head north through tunnels and even a ferry before arriving at Åkrafjorden. Cruise passengers take day trips here to see the Langfoss Waterfall; it’s a 612m drop making it one of Norway’sfinest.
                   </p>
                   <div class="stars">
                     <i class="fas fa-star text-warning"></i>
@@ -156,6 +154,7 @@ const Review = () => {
                   </div>
                 </div>
               </div>
+
 
             </Carousel>
           </div>

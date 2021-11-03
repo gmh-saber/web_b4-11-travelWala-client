@@ -16,6 +16,7 @@ import UserUpdate from "./Pages/userUpdate/UserUpdate";
 import MyBooking from "./Pages/myBooking/MyBooking";
 import UpdateUserService from "./Pages/updateUserService/UpdateUserService";
 import About from "./Pages/Abouts/About";
+import AllServices from "./Pages/Homes/AllServices/AllServices";
 // import MyBooking from "./Pages/myBooking/MyBooking";
 
 function App() {
@@ -30,6 +31,9 @@ function App() {
             </Route>
             <Route path="/home">
               <Home></Home>
+            </Route>
+            <Route path="/bookCard">
+              <AllServices></AllServices>
             </Route>
             <Route path="/about">
               <About></About>
